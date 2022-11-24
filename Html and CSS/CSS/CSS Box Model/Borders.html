@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Borders</title>
+    <style>
+      .para1 {
+        background-color: tomato;
+        height: 70px;
+        width: 400px;
+
+        /* border: width style color; 
+          ->border property consists of three properties. 
+        */
+
+        border: 4px solid dodgerblue;
+
+        /*border-width: 4px;
+        border-color: brown;
+        border-style: dotted;*/
+
+        border-radius: 10px;
+      }
+
+      .para2 {
+        background-color: tomato;
+        height: 70px;
+        width: 400px;
+
+        border-top: 4px solid blueviolet;
+        border-right: 6px dashed skyblue;
+        border-bottom: 5px dotted royalblue;
+        border-left: 4px solid rebeccapurple;
+
+        border-top-left-radius: 5px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 10px;
+      }
+
+      .para3 {
+        height: 250px;
+        width: 450px;
+        background-image: url("https://plus.unsplash.com/premium_photo-1673697239984-b089baf7b6e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fHww&w=1000&q=80");
+        border: 4px solid crimson;
+        /*background-position: 100px 100px;*/
+        /*background-position: center;*/
+        /*background-position: bottom right;*/
+      }
+    </style>
+  </head>
+  <body>
+    <h2>This is Heading 1</h2>
+    <p class="para1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab impedit iste
+      quia, qui at quo recusandae a provident expedita libero, sequi nulla magni
+      dolores autem iusto quae sed? Iusto, non?
+    </p>
+
+    <h2>This is Heading 2</h2>
+    <p class="para2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab impedit iste
+      quia, qui at quo recusandae a provident expedita libero, sequi nulla magni
+      dolores autem iusto quae sed? Iusto, non?
+    </p>
+
+    <h2>This is Heading 3</h2>
+    <p class="para3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab impedit iste
+      quia, qui at quo recusandae a provident expedita libero, sequi nulla magni
+      dolores autem iusto quae sed? Iusto, non?
+    </p>
+  </body>
+</html>
