@@ -1,0 +1,15 @@
+Semantic tag: 
+              ->Semantics refers to yhe meaning of a peice of code.
+              ->HTML provides semantic tag to sectioning my page. 
+              ->It is a kind of div seficify it by its name.
+              eg:a) <header>   ----> an example of semantic tag.
+                        //header section content
+                    </header>
+                
+                 b) <nav>   ----> an example of semantic tag.
+                        //nav section content
+                    </nav>
+                
+                 c) <article>   ----> an example of semantic tag.
+                        //article section content
+                    </article>
