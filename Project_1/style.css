@@ -1,4 +1,4 @@
-html{
+  html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      
 }
@@ -31,4 +31,10 @@ nav{
     position: relative;
     top: 1rem;
     width: 20rem;
+}
+
+.section_img{
+    width: 95vw;
+    height: 70vh;
+    margin: 1rem;
 }
