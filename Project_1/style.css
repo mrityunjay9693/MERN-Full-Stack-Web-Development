@@ -3,5 +3,32 @@ html{
      
 }
 header>h1{
-    font-weight: 300;
+    font-weight: 400;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /*margin: 0 3rem 0 3rem;*/
+    margin: 0 2rem;
+}
+
+li{
+    list-style: none;
+    /*
+        Deafault font size of HTML root element : 16px
+        1rem = 16px.
+    */
+    font-size: 1.5rem;
+    /*display: inline-block;*/
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    position: relative;
+    top: 1rem;
+    width: 20rem;
 }
