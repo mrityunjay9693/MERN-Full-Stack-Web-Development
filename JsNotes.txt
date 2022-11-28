@@ -1,0 +1,129 @@
+Javascript:->Javascript is the language for the web. It is the mosty popular leightweight, interpreted compiled
+             programming languagewhich is used for both client-side as well as  server-side development. JavaScript
+             is also known as scripting languiage for web pages.
+
+console.log():->It is a method which outputs a message to the web console. The message may be a single string or
+                it may be any one or more javascript objects.
+
+script tag:->script tag is used to link your javascript with the html.
+             script tag is not the part body in the html page.
+
+                        ***** Fundamentals of JavaScript *****
+
+Variables : In JavaScript, variable is a name given to a memory location which is used to store any 
+            type of data in it. It is an entity which is used to store information or data is called variables.
+            Varibales used to stores values that means it is an conatiner for storing values/information/data.
+            If required, values or data in a varibale can be changed/updated anytime later in the program. Variables 
+            is a symbolic name or reference for a data/values.
+            There are three types to declare an entity as varibales which are mentioned 
+            aas follows :-
+            a)var
+            b)let and,
+            c)const.
+
+Rules while declaring a variable in javascript : 
+            
+            Rule 1 :- 
+
+
+
+Notes: There is no type specification in javascript. That means we don't need to mentioned or tell
+       about the data type of varibales i.e., of what kind of values will be inside in varibales. 
+       Hemce, javascript is an dynamically typed or dynamic in nature programming language.
+    
+a)var : 'var' statement declares function-scoped or globally-scoped variables optionally initializing each to a value
+        var is a keyword in javascript which is used to declare an entity as varibale which is always be initialized 
+        with an undefined value. This means that let suppose 'a' is a varibale which is declared by var as var a;, 
+        then value which will be stored in 'a' will be undefined.
+
+        Ex : var a;
+             console.log(value in a is +a);
+             // output : value in a is undefined. 
+      ->The value in the variable 'a' declared with var keyword will be undefined unless we give it some values. As 
+        soon as a value is given to varibale 'a', the value is updated from 'undefined' to 'value given in a'.
+        Hence JavaScript is a single-threaded or synchronou programming language.
+
+        Ex : var a = 33;
+            14 console.log(value in a is +a);
+             // output : value in a is 33. 
+
+Notes:- JavaScript is a synchronous in behaviour programming language.
+        A javascript program is interpreted line by line.
+
+Notes:- JavaScript is dynamically-typed programming language because while declaring a varibale, we are not 
+        specifying its data type. 
+
+Limitations/issues using 'var' :
+        
+        a)Redeclarations: First limitations/issues comes to var is its behaviour of 'redeclarations'. Once a 
+                          variable 'b'is declared using var, programer can again declare another varibale by 
+                          same name 'b' and this will create a confusions for others and a lots of bugs will 
+                          be created. 
+                          Ex: var a = 1;
+                              var a = 5;
+                              console.log(a);
+                              //Output: 5
+                          In this example   have declare varibale 'a' twice with same name in the same
+                          scope without any error. The second declaration will assigns a new value i.e., 5 to 
+                          the existing variable which will lead to an unexpected behaviour, especially in larger 
+                          codebase and result to number of unwanted bugs to programer.
+
+Notes: To address the issue of redeclarations and improve code quality and maintainability, modern JavaScript 
+       introduced let and const. Using let and const for variable declarations enforces block scoping and prevents 
+       redeclarations within the same scope
+
+Notes: 'var' keyword is not used anymore in industries and it is one of the important attraction of interview purpose.
+
+
+------------------------------------------------------------------------------------------------------------------
+                                            Data Types                                                           
+------------------------------------------------------------------------------------------------------------------
+Data Types: In programming language, data type is an attribute which is associated with a 
+            peice of data that tells the computer system about the quality of data it will
+            havewith different sizes. 
+            In JavaScript, data types represents the kind of value that can be stored and manipulated
+            in a program.
+            JavaScript has several built-in data types, which can be categorized into two main groups:
+             1)Primitive data types.
+             2)Non-primitive data types or reference data types.
+1)Primitive data types: following are five types of primitive data types available in javascript as follow:  
+                        a)Number:
+                             Ex:var Sno = 2.1;
+                                var tno = 201.1234
+                                console.log('a)Numbers data types: ') 
+                                console.log(fno +' is integer');
+                                console.log(Sno +' is float')
+                                console.log(tno +' is in double\n'); 
+
+                        b)String:
+                             Ex:console.log("b)String Data Type: ")
+                                var s1 = 't';
+                                var s2 = 'tilde';
+                                console.log("'"+s2+"'" +" is a string.");
+                                console.log("'"+s1+"'"+' is also a string\n');
+                        c)Boolean:
+                             Ex:var t = true;
+                                var f = false;
+                                console.log("c)Boolean Data Types: ");
+                                console.log('t: '+t, ' f: '+f+'\n');
+
+                        d)Undefined:
+                             Ex:var u;
+                                var u1 = undefined;
+                                console.log('d)Undefined Data Types: ');
+                                console.log('u: '+u)
+                                console.log('u1: '+u1+'\n');
+                        e)Null:
+                             Ex:var n = null;
+                                console.log('e)Null Data Types: ');
+                                console.log('n: '+n);
+
+
+
+
+
+
+
+
+
+

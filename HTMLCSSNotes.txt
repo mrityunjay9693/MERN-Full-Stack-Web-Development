@@ -13,3 +13,5 @@ Semantic tag:
                  c) <article>   ----> an example of semantic tag.
                         //article section content
                     </article>
+
+              
