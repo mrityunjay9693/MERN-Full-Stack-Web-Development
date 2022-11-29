@@ -20,11 +20,15 @@ console.log(greet)               //let won't allow to redeclaration of variable
 */
 
 /*
- In below example, variable name is declared twice with var and let respectively. Here there will be an error 
- that variable 'naame' has been laready declared. This is because 'let' is aware about the redeclaration of 
- 'naame' and it is knowing that 'naame' is already deckared in line number 27.
+ In below example, variable name is declared twice with var and let respectively. Here there will be an 
+ error that variable 'naame' has been laready declared. This is because 'let' is aware about the 
+ redeclaration of 'naame' and it is knowing that 'naame' is already deckared in line number 27.
 */
 //var naame = 'Mrityunjay kumar.'
 let naame = 'Mrityunjay kumar.';
 console.log(naame); 
 
+/* re-assigning is allowed for variables using 'let'*/
+let Name = 'Bihar';
+Name = "Muzaffarpur"
+console.log(Name) // Output : Muzaffarpur. Bihar is replaced with Muzaffarpur as we have reassigned.
