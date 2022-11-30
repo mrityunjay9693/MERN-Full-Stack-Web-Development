@@ -64,15 +64,51 @@ Limitations/issues using 'var' :
                               console.log(a);
                               //Output: 5
                           In this example   have declare varibale 'a' twice with same name in the same
-                          scope without any error. The second declaration will assigns a new value i.e., 5 to 
-                          the existing variable which will lead to an unexpected behaviour, especially in larger 
-                          codebase and result to number of unwanted bugs to programer.
+                          scope without any error. The second declaration will assigns a new value i.e.,
+                          5 to the existing variable which will lead to an unexpected behaviour, especially 
+                          in larger codebase and result to number of unwanted bugs to programer.
 
 Notes: To address the issue of redeclarations and improve code quality and maintainability, modern JavaScript 
-       introduced let and const. Using let and const for variable declarations enforces block scoping and prevents 
-       redeclarations within the same scope
+       introduced let and const. Using let and const for variable declarations enforces block scoping and 
+       prevents redeclarations within the same scope
 
-Notes: 'var' keyword is not used anymore in industries and it is one of the important attraction of interview purpose.
+Notes: 'var' keyword is not used anymore in industries and it is one of the important attraction of interview 
+        purpose.
+
+        b)Scoping : Another issue/limitation with var type while using it is 'scoping'. The var keyword do not have 
+                    block scope. Variable with var type is either function-scoped or global-scoped. Variables using 
+                    var type can be easily accessed outside the block in which it is defined. We cannot restricts a
+                    variable using var within the block only. Actually, var ignores particular block of code i.e., 
+                    block scope and we must remember that it is globally declared and has global-scoped.
+                    A variable uing var can be accessed outside the block due to var keyword supports hoisting and this 
+                    is one of the limitation of var.
+                    (hoisting will discussed later)
+
+                Ex: if(10%2 == 0)
+                    {
+                        var a = 'Divisible by 2';
+                        console.log(a)   // here, var is declared in if-block.          
+                    }       
+                    console.log(a);
+                    Output: Divisible by 2
+                            Divisible by 2
+              ->In the above example, variable 'a' with var type is declared in if-block and printing the value of a in the
+                if-block but outside the if-block, 'a' is again accessed and visible out of the scope in which it is declared
+                which will expose the purpose or objective of variable a defined in if-block. And in other words we can say 
+                that it is not good for programer that a variable or program entity is used outside the block sope without 
+                any purpose.
+                //Here as 'a' can be easily used outside the scope in which it is declared 
+              ->To overcome this limitation of var keyword, we use let keyword.
+                 
+
+
+
+
+
+
+
+
+
 
 
 ------------------------------------------------------------------------------------------------------------------
