@@ -6,9 +6,20 @@
 */
 
 const num = 10;   //value of num can not be altered further throughout the program.
-//console.log(num);
+console.log(num);
 
 //const num = 45;   //re-declarartion is not allowed.
 //console.log(num);  //Error in linme 10 : num is already declared in line 8 
 
 //a = 100;            //re-assigning is not allowed 
+
+/*
+ * Variable with "const" is a block-scoped. 
+*/
+{
+  const Name = "Mrityunjay Kumar"
+  console.log("Inside block:",Name);
+}
+//console.log("Outside block: "+Name); -> error : Name is not defined , Name is declared in above block-scope and it
+                                              // is not allowed to use variable declared with const outside the block-scope.
+

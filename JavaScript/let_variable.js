@@ -33,6 +33,12 @@ let Name = 'Bihar';
 Name = "Muzaffarpur"
 console.log(Name) // Output : Muzaffarpur. Bihar is replaced with Muzaffarpur as we have reassigned.
 
+/* 
+-------------------------------------------------------------------------------------------------------------------
+                                              Scoping
+-------------------------------------------------------------------------------------------------------------------
+*/
+
 /*
     2.We all aware about the fact that 'var' type can be accessed outside the block-scope in which it is defined
       To overcome this limitation of var, let is introduced.

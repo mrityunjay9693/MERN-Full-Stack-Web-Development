@@ -1,6 +1,7 @@
 Javascript:->Javascript is the language for the web. It is the mosty popular leightweight, interpreted compiled
              programming languagewhich is used for both client-side as well as  server-side development. JavaScript
              is also known as scripting languiage for web pages.
+           ->JavaScript is a dynamically-typed language. 
 
 console.log():->It is a method which outputs a message to the web console. The message may be a single string or
                 it may be any one or more javascript objects.
@@ -175,12 +176,8 @@ Data Types: In programming language, data type is an attribute which is associat
                                 console.log('e)Null Data Types: ');
                                 console.log('n: '+n);
 
+------------------------------------------------------------------------------------------------------------------
+                                            Functions                                                           
+------------------------------------------------------------------------------------------------------------------
 
-
-
-
-
-
-
-
-
+Functions : 
