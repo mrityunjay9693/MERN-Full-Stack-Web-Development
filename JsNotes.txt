@@ -55,7 +55,7 @@ Notes:- JavaScript is dynamically-typed programming language because while decla
 
 Limitations/issues using 'var' :
         
-        a)Redeclarations: First limitations/issues comes to var is its behaviour of 'redeclarations'. Once a 
+        1)Redeclarations: First limitations/issues comes to var is its behaviour of 'redeclarations'. Once a 
                           variable 'b'is declared using var, programer can again declare another varibale by 
                           same name 'b' and this will create a confusions for others and a lots of bugs will 
                           be created. 
@@ -75,7 +75,7 @@ Notes: To address the issue of redeclarations and improve code quality and maint
 Notes: 'var' keyword is not used anymore in industries and it is one of the important attraction of interview 
         purpose.
 
-        b)Scoping : Another issue/limitation with var type while using it is 'scoping'. The var keyword do not have 
+        2)Scoping : Another issue/limitation with var type while using it is 'scoping'. The var keyword do not have 
                     block scope. Variable with var type is either function-scoped or global-scoped. Variables using 
                     var type can be easily accessed outside the block in which it is defined. We cannot restricts a
                     variable using var within the block only. Actually, var ignores particular block of code i.e., 
@@ -100,7 +100,28 @@ Notes: 'var' keyword is not used anymore in industries and it is one of the impo
                 //Here as 'a' can be easily used outside the scope in which it is declared 
               ->To overcome this limitation of var keyword, we use let keyword.
                  
+c)const: const is a keyword which is used to declare a variable. Using const keyword for the declaration 
+         of variable, once a variable is assigned to it then its value will not alter throughout the 
+         program.
+         Whenever we do not want to change the value of a variable throughout the program, we use const 
+         with the variable.  
+        ->Once a variable is declared with const keyword, then we cannot either redeclare it or 
+          re-assign the variable with const keyword.
+        ->Re-declaration of variable is not allowed.
+           Ex: const a = 10;
+               const a = 12; // re-declaration is not allowed      
 
+
+        ->and, re-assigning of variable is also not allowed
+           Ex: const a = 10;
+               a = 12; // re-assigning is not allowed
+        ->Declaration of variable and assigning value to it using const keyword should be done in a 
+          single line. This means we can not declare a variable using const without assigning the value 
+          to the variable. This is because. as a variable is declared without assigned then we know that
+          a undefined value is get assigned to it.
+
+          Ex : const a; // undefined value is assigned to a.
+               a = 10;  //here, re-assign is not allowed
 
 
 
