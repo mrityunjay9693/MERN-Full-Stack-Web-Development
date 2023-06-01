@@ -1,0 +1,31 @@
+------------------------------------------------------------------------------------------------------------------
+                                            Functions                                                           
+------------------------------------------------------------------------------------------------------------------
+
+Functions:->A function in javascript is a collection/set of some statement which takes some input, doing a specific 
+            task/computation and displaying/return the result/output. The objective of writing a function is to avoid 
+            writing of same code again and again to achieve the same objective for different input i.e., to avoid
+            repetition of code. 
+          ->JavaScript has number of built-in functions. But, JavaScript allows a programmer to create a user-defined
+            functions.
+          ->"function" is the keyword which is used to create a function in JavaScript.
+          ->To craete a function is JavaScript, firstly write "function" keyword and the function name followed by a 
+            sepace i.e., function keyword and function should be separated by a space. There will be a parenthesis just
+            after function name which consists of parameters. The function body will be inside curly braces which is 
+            given just after parenthesis.
+          ->Syntax for creating a function in JavaScript : 
+
+                function function-name(parameter1, parameter2)
+                {
+                    //function body.
+                    //set of instruction.
+                } 
+
+                Exaple: function addNumber(number1, number2)
+                        {
+                            return number1+number2;
+                        }
+                        console.log( addNumber(19,20) );
+
+                        o/p : 39
+                        
