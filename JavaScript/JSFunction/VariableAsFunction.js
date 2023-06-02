@@ -9,7 +9,7 @@
 */
 //Ex:1
 let greetWorld = function(){  // Anonymous function(a function without name), 
-                              //which is assigned to the variable greetWorld.
+                              //which is assigned to the variable 'greetWorld'.
 
     console.log("Hello,");
     console.log("Good morning.");

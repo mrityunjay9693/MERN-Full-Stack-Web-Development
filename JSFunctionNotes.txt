@@ -29,3 +29,5 @@ Functions:->A function in javascript is a collection/set of some statement which
 
                         o/p : 39
                         
+
+IIFE(Immediately invoked Function Expression) : 
