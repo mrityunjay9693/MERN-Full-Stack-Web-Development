@@ -1,5 +1,6 @@
 /**
  * pop() method : The pop() method is used to removes the last element of a given array.
+ * pop() method does not use index.
  */
 //Ex 1:
 //removing last element of the array using pop() method
