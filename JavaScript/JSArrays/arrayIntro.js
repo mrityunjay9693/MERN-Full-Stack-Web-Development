@@ -15,9 +15,15 @@
                                       2] let arrayName = new Array(); 
  */
 //Array Declaration:
-let arr = [];
+let arr = []; //Array without an element.
 console.log("Empty array:");
 console.log(arr);
 
+//Array's elements are of same data-type.
 let carsName = ["BMW", "Toyota", "Audi", "Mustang"];
 console.log(carsName);
+
+//Array's elements are of different data-type.
+//In JavaScript, you can store different values of different data-types.
+let bmwCar = ["BMW XM", 2.6, true, "black", null, 120, undefined];
+console.log(bmwCar);
