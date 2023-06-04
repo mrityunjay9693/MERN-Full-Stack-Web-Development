@@ -28,4 +28,4 @@ console.log("Is "+bmwCar[0]+" available: "+bmwCar[2]);
 console.log("Colour of "+bmwCar[0]+": "+bmwCar[3]);
 console.log("EMI Option for "+bmwCar[0]+": "+bmwCar[4]);
 console.log("Average speed: "+bmwCar[5]+" KMPH");
-console.log("Waiting Period: "+bmwCar[6]);
+console.log("Waiting Period: "+bmwCar[6]);  
