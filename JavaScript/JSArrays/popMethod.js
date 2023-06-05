@@ -13,7 +13,7 @@ console.log(myCar);
 myCar.pop();
 
 console.log("Array after using pop() method:");
-console.log(myCar);
+console.log(myCar); // [ 'BMW', 'AUdi', 'Mercedes', 'Alto', 'Maruti', 'Nexon' ]
 
 //let suppose I  want to see the element which is removed by busing pop() method. Then we just need to do one thing 
 //that, just store it into a new variable. 
@@ -23,4 +23,3 @@ let removedCar = myCar.pop();
 console.log("Removed car: "+removedCar);
 console.log("Array after using pop() method:");
 console.log(myCar);
-

@@ -20,4 +20,7 @@ let iife = (function () {
 let multiply = (function (num1, num2) {
     return num1 * num2;
 })(20, 30);
+
+//multiply(5,6); // An error will be here: multiply is not a function. Since it was alredy called at line 22 and the function ends
+
 console.log(multiply);
