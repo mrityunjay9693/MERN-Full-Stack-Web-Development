@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
-    /*--  attribute selector : Selection is done by the name of 
-          attribute or selection is done with the help of attribute name
-    --*/ 
-    input[value='Select Me']{
-        background-color: blue;
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute selector</title>
+  </head>
+  <style>
+    /*--  
+        attribute selector : Selection is done by the name of 
+        attribute or selection is done with the help of attribute name
+    --*/
+    input[value="Select Me"] {
+      background-color: blue;
     }
+  </style>
 
-</style>
-
-<body>
+  <body>
     <!--  Select input element with the value "Select Me" and make its background blue -->
 
-
-
     <form>
-        <input type="buttom" value="Click Me">
-        <input type="button" value="Select Me">
+      <label for="">First Name:</label>
+      <input type="buttom" value="Click Me" />
+      <input type="button" value="Select Me" />
     </form>
-
-</body>
+  </body>
 </html>
