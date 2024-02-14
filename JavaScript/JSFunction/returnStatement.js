@@ -1,6 +1,10 @@
 /**
  * using return statement in a function.
  */
+function returnStatement(){
+    return "statement is returned";
+}
+console.log(returnStatement());
 
 function greet() {
     let greetMe = "Hello tilde!";
