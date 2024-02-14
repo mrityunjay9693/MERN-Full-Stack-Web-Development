@@ -9,14 +9,12 @@
 let arr = []; //Array without an element.
 console.log("Empty array:");
 console.log(arr);
-
+//In JavaScript arrays, we can store different values of different data types.
 //Array's elements are of same data-type.
 let carsName = ["BMW", "Toyota", "Audi", "Mustang"];
 console.log(carsName);
 
 //Array's elements are of different data-type.
 //In JavaScript, you can store different values of different data-types.
-let bmwCar = ["BMW XM", 2.6, true, "black", null, 120, undefined];
+let bmwCar = ["BMW XM", 2.6, true, "black", null, 120, undefined, 80.20];
 console.log(bmwCar);
-
-//Accessing array's elements : We can access an array element sui
