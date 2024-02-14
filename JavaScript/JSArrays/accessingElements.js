@@ -1,5 +1,6 @@
 /**
- * Accessing the elements of an array
+ * Accessing Array Element: Using the array index notation, we can access an array element by specifying the index of 
+                            the respective array item within square brackets following the array name.
  * In JavaScript, order of array elements is specified. That means, first elements is at index 0, second elements 
    is at index 1, third element is at index 2 and so on.
    
