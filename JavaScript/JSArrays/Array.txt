@@ -1,0 +1,45 @@
+Array:->In JavaScript, array is a single variable as well as the most basic data structure and a special type of 
+          object to store and manipulate ordered collection of values of same or different datatypes. 
+        ->An array is an ordered collection of values.
+        ->Arrays in JavaScript are dynamic in nature i.e., JavaScript arrays are resizable. They can grow or shrink
+          as needed and hence, there is no need of declaring its fixed size while creating the array.
+        ->JavaScript arrays are not associative arrays in nature.
+        ->Ecavh value in JavaScript array is called an element and each element has a numeric position in the array, 
+          known as its index.
+        ->JavaScript arrays are zero-based indexing and 32-bit indexes. The first element is at index 0, second is at 2
+          and so on. The highest possible index is 4294967294(2^32-2).
+ 
+ Syntax for Declaration of an Array: There are two ways for creating an empty array :
+                                      1] let arrayName = [];
+                                      Example: let arr = []; //Array without an element.
+                                               console.log("Empty array:");
+                                               console.log(arr);
+                                      2] let arrayName = new Array(); 
+
+Notes: a)Array's elements are of same data-type.
+            Example: let carsName = ["BMW", "Toyota", "Audi", "Mustang"];
+            console.log(carsName);
+
+      b)Array's elements are of different data-type. In JavaScript, you can store different values of different data-types.
+            Example: let bmwCar = ["BMW XM", 2.6, true, "black", null, 120, undefined];
+            console.log(bmwCar);
+
+Accessing Array Element: Using the array index notation, we can access an array element by specifying the index of 
+                         the respective array item within square brackets following the array name.
+                         In JavaScript, order of array elements is specified. That means, first elements is at index 0, 
+                         second elements is at index 1, third element is at index 2 and so on.
+
+                      ->let arr = ["first value", "second value", "third value","fourth value"] 
+                            pos =        0               1               2               3
+                        If, Element position -> n
+                        then, nth index        -> n-1
+                        Ex: second value position : 2
+                            then, its index : n-1 = 2-1 = 1
+                Example:let stateName = ["Bihar", "UP", "Gujrat", "Karnataka", "Assam"];
+                        console.log(stateName[0]);  //Bihar
+                        console.log(stateName[1]);  //UP
+                        console.log(stateName[2]);  //Gujrat
+                        console.log(stateName[3]);  //Karnataka
+                        console.log(stateName[4]);  //Assam
+                        console.log(stateName[5]);  //undefined, here array has only 4 values and fifth value is not defined.
+ 
