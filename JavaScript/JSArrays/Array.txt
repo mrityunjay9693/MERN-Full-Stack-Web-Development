@@ -21,7 +21,7 @@ Notes: a)Array's elements are of same data-type.
             console.log(carsName);
 
       b)Array's elements are of different data-type. In JavaScript, you can store different values of different data-types.
-            Example: let bmwCar = ["BMW XM", 2.6, true, "black", null, 120, undefined];
+            Example: let bmwCar = ["BMW XM", 2.6, true, "black", null, 120, undefined, 80.00];
             console.log(bmwCar);
 
 Accessing Array Element: Using the array index notation, we can access an array element by specifying the index of 
