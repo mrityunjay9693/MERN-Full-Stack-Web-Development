@@ -30,11 +30,11 @@ Accessing Array Element: Using the array index notation, we can access an array 
                          second elements is at index 1, third element is at index 2 and so on.
 
                       ->let arr = ["first value", "second value", "third value","fourth value"] 
-                            pos =        0               1               2               3
-                        If, Element position -> n
-                        then, nth index        -> n-1
-                        Ex: second value position : 2
-                            then, its index : n-1 = 2-1 = 1
+                        position=        0               1               2               3
+                        If, Element position-> n
+                        then, nth index     -> n-1
+                        Ex:second value position : 2
+                           then, its index : (n-1) = 2-1 = 1
                 Example:let stateName = ["Bihar", "UP", "Gujrat", "Karnataka", "Assam"];
                         console.log(stateName[0]);  //Bihar
                         console.log(stateName[1]);  //UP
@@ -42,3 +42,18 @@ Accessing Array Element: Using the array index notation, we can access an array 
                         console.log(stateName[3]);  //Karnataka
                         console.log(stateName[4]);  //Assam
                         console.log(stateName[5]);  //undefined, here array has only 4 values and fifth value is not defined.
+
+length property of an array : To find the length of the given array, "length" property is used as shown below in the syntax:
+                              
+                          ->Syntax: arrayName.length;
+                            Example:let arr = [1 , 2 , 3 , 4 , 5 , 6 , 7 ];
+                                    len = arr.length;
+                                    console.log(len);
+                            Output : 7 -> length of the given array 'arr'
+                          
+                          ->It returns the length of the given array. 
+
+                            Example:let cityName = ["Mumbai", "Bangalore", "Pune", "Patna", "New Delhi"];
+                                    len = cityName.length;
+                                    console.log("Length of array cityName:");
+                                    console.log(len);

@@ -11,6 +11,14 @@
    Ex: second value position : 2
        then, its index : n-1 = 2-1 = 1
  */
+let myCars = ["BMW", "Mahindra", "Audi", "Mercedes"];
+console.log("My cars collections are:")
+console.log(myCars[0]);
+console.log(myCars[1]);
+console.log(myCars[2]);
+console.log(myCars[3]);
+console.log(myCars[4]); //undefined , because item is the array has not fifth(at indx 4) item in it. 
+
 let stateName = ["Bihar", "UP", "Gujrat", "Karnataka", "Assam"];
 console.log(stateName[0]);  //Bihar
 console.log(stateName[1]);  //UP
