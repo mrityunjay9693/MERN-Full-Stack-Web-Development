@@ -42,4 +42,3 @@ Accessing Array Element: Using the array index notation, we can access an array 
                         console.log(stateName[3]);  //Karnataka
                         console.log(stateName[4]);  //Assam
                         console.log(stateName[5]);  //undefined, here array has only 4 values and fifth value is not defined.
- 
