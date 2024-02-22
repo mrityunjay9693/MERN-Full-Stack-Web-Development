@@ -1,0 +1,51 @@
+String : String in JavaScript is defined as the sequence of characters.
+         String in JavaScript is written either in single quotation or double quotation.
+         There is also anothe way to write string within it which is known as backtick characters, will discuss 
+         later.
+         
+         Syntax : let variableName = "Given string by users";
+
+         Example : let stateName = "Bihar";
+                   let cityName = 'Muzaffarpur';
+                   console.log(stateName); //Bihar
+                   console.log(cityName);  //Muzaffarpur
+
+length : length is a property of string in JavaScript is used to find length of the given string i.e.,
+         total number of character inside a string.
+
+         Syntax : string_variable.length; or "given string".length
+
+         let str = "tildetech";
+         let lengthOfString = str.length;
+         console.log("Total length of " + str + " is");
+         console.log(lengthOfString); //9
+
+         let stateName = "Bihar";
+         console.log(stateName.length); //5
+
+         let len = "Muzaffarpur".length;
+         console.log(len); //11
+
+         console.log("India".length); //5
+
+JavaScript Methods/Functions : JavaScript provides a variety of built-in methods that serve specific purposes such as 
+                               manipulating strings, arrays, objects, handling events, interacting with DOM and many more.
+                               Additonally, we ca also create custom functions to meet specific requirement in their code 
+                               but these would not be considered as built-in JavaScript methods. Now we will see numerous 
+                               built-in methods of JavaScript.
+
+
+a)slice() : The slice() method is an built-in method of JavaScript for string which is used to extract a portion/section of 
+            given string and will return a new string which consists of the extracted part. The method will not modify the
+            original string. It accept two parameters in it i.e., first index and last index.
+            
+            Syntax : given_string.slice(startIndex, endIndex);
+                     wehere, startIndex is inclusive
+                             endIndex is exclusive 
+
+Note: endIndex is exclusive i.e., it will not include the value in the extracted part which lies at the endIndex. So, to 
+      include it, we have to considered the very first index after endIndex i.e., endIndex+1. Therefore above syntax can 
+      also be written as :
+
+      Syntax : given_string.slice(startIndex, endIndex+1);
+                      

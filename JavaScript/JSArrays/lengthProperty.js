@@ -5,7 +5,7 @@
        len = arr.length;
        console.log(len);
     Output : 7 -> length of the given array 'arr'
-   -> It returns the length of the given array.
+ * It returns the length of the given array.
  */
 
 let cityName = ["Mumbai", "Bangalore", "Pune", "Patna", "New Delhi"];

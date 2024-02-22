@@ -57,3 +57,5 @@ length property of an array : To find the length of the given array, "length" pr
                                     len = cityName.length;
                                     console.log("Length of array cityName:");
                                     console.log(len);
+
+Array Methods :  

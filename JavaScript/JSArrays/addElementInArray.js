@@ -1,5 +1,5 @@
 /**
- * In JavaScript, we can also add an element/value or element/values at the specified position/index.
+ * In JavaScript, we can also add an element/value at the specified position/index.
  */
 //Ex:1
 // Adding a value at the position very next to last element/value

@@ -16,7 +16,7 @@ cityName.shift();
 console.log("Array after removing value from starting:");
 console.log(cityName);
 
-//21.unshift() method : It adds an element at the 0th index value(starting of the given array).
+//2.unshift() method : It adds an element at the 0th index value(starting of the given array).
 cityName.unshift('Muzaffarpur');
 
 console.log("Adding Muzaffarpur to the array using unshift():");
