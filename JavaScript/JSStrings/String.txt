@@ -57,4 +57,6 @@ Note: endIndex is exclusive i.e., it will not include the value in the extracted
                      //Using slice() method inside console.log() :
                      console.group(str.slice(5, 25));
                      //Original array is not modified
-                     console.log("Original array is not modified: " + str);             
+                     console.log("Original array is not modified: " + str);   
+
+b)subStr() :                               
