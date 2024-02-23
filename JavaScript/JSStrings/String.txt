@@ -48,4 +48,13 @@ Note: endIndex is exclusive i.e., it will not include the value in the extracted
       also be written as :
 
       Syntax : given_string.slice(startIndex, endIndex+1);
-                      
+  
+            Examples:let str = "tildetech and development";
+                     let sliceStr = str.slice(5, 9); // extracting "tech"
+                     console.log("Given string before extraction using slice: " + str);
+                     console.log("String after extraction using slice method: ");
+                     console.log(sliceStr);
+                     //Using slice() method inside console.log() :
+                     console.group(str.slice(5, 25));
+                     //Original array is not modified
+                     console.log("Original array is not modified: " + str);             
