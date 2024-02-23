@@ -12,6 +12,12 @@ console.log("Given string before extraction using slice: " + str);
 console.log("String after extraction using slice method: ");
 console.log(sliceStr);
 
+//Using slice() method inside console.log() :
+console.group(str.slice(5, 25));
+
+//Original array is not modified
+console.log("Original array is not modified: " + str);
+
 //Example:2
 let studentName = "Mrityunjay Kumar";
 console.log("First name : ");
@@ -49,8 +55,7 @@ console.log(slicedCityName2);
 
 //if only endIndex parameter is set to negative
 let slicedCityName3 = cityName.slice(0, -11); // Muzaffarpur
-console.log("City Name: "+slicedCityName3); 
+console.log("City Name: " + slicedCityName3);
 
-//if, only endIndex is provided and it is set to negative also.
 let slicedCityName4 = cityName.slice(undefined, -11); // endIndex is provided and set to negative
 console.log(slicedCityName4);
