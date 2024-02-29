@@ -59,4 +59,38 @@ Note: endIndex is exclusive i.e., it will not include the value in the extracted
                      //Original array is not modified
                      console.log("Original array is not modified: " + str);   
 
-b)subStr() :                               
+b)substr(): The substr() method in JavaScript is a method of String object which is used to extract a portion of the given 
+            string i.e., a substring which accepts two parameters, one is starting index and second one is a length. The substr() 
+            method returns a new string which is the portion(substring) of the given string and it will not disturb or altered 
+            the original string. 
+          ->The substr() method in JavaScript is a String object method used for extracting a substring from a specified starting 
+            index up to a specified length within a given string. The method is employed to obtain a portion of the string based on 
+            the provided parameters, allowing developers to manipulate and work with substrings effectively. 
+
+    Syntax: string.substr(starting_index, length); or,
+            variableName.substr(starting_index, length);
+
+            Here, starting_index : the specified index from where extraction is to begin withing the given string.
+                  length : It is length of the extracted string i.e., subsring. In other words, it is the number of 
+                           characters to be extracted from starting_index.
+
+Note: *The substr() method returns a substring that has been extracted from the given string, the starting_index and 
+       length to extract.
+      *The substr() method does not chnage the value of the given string. 
+      *If, only the starting index is specified, then it wil return a ortion of the string from the given specified 
+       index up to the last character of the string.
+
+      Example: let cityName = "Muzaffarpur";
+               let substr1 = cityName.substr(8);
+               console.log(substr1);
+               console.log(cityName.substr(0)); 
+      *If you specify "undefined" as starting_index, then the substr() method will treat it as, starting index is 0,
+       effectively extracting the substring from the beginning of the given string.
+       Example:let address = "Muzaffarpur, Bihar, India"    
+               console.log(address.substr(undefined, 11));
+               console.log(address.substr(undefined, 18));
+               console.log(address.substr(undefined)); 
+
+Note: The substr() method is no longer recommended in JavaScript. That means it is deprecated. Instead, it is recommended 
+      to use substring().
+
