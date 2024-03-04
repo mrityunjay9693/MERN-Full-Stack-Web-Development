@@ -34,6 +34,7 @@ JavaScript Methods/Functions : JavaScript provides a variety of built-in methods
                                but these would not be considered as built-in JavaScript methods. Now we will see numerous 
                                built-in methods of JavaScript.
 
+#Extraction Methods
 
 a)slice() : The slice() method is an built-in method of JavaScript for string which is used to extract a portion/section of 
             given string and will return a new string which consists of the extracted part. The method will not modify the
@@ -93,4 +94,33 @@ Note: *The substr() method returns a substring that has been extracted from the 
 
 Note: The substr() method is no longer recommended in JavaScript. That means it is deprecated. Instead, it is recommended 
       to use substring().
+
+#Replacing string's content Method in JavaScript 
+
+->Likewise array, we have such methods in JavaScript through which we can replace the content of the given string. Let's 
+see how the content of a string is replaced using method provided by JavaScript.
+
+replace(): In JavaScript, the replace() method is a built-in string method which used to replace a specified substring or a 
+           portion of the given string with a new substring. The replace method expects two parameters, first parameter will 
+           be "value to be replaced" and second parameter will be "the value by which the substring will be replaced".
+  
+           Syntax: string.replace(parameter1, parameter2);
+                   here, parameter1: value to be replaced, and 
+                         parameter2: the value by which the substring will be replaced
+
+          Example:let myIntroduction = "I am Mrityunjay Kumar, belongs to Karnataka state.";
+                  let newIntroduction = myIntroduction.replace("Karnataka", "Bihar"); // Karnataka will be replaced by Bihar
+                  console.log(newIntroduction); //I am Mrityunjay Kumar, belongs to Bihar state.
+Notes:Suppose we want to return the modified string after replacement by using the replace() method in the original string. 
+      In that case, we will directly use the original string's variable to store the result of the replacement operation 
+      In the below example, by mistake house name is provided instaed of office building name. 
+      Let's replace house name with office building name.
+    
+      Example:let workPlace = "My office is located on third floor and building name is Krishna Tower";
+              console.log(workPlace.replace("Krishna Tower", "Green Park")); //My office is located on third floor and building 
+                                                                             //name is Green Park
+
+Notes: It is important to note that, the "replace()" method does not alter/modify the original string. It returns a new string
+       with the replacements. If we want to modify the original string, we need to assign the result back to the original 
+       variable.
 
