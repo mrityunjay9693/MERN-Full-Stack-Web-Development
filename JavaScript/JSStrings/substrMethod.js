@@ -31,3 +31,4 @@ let address = "Muzaffarpur, Bihar, India"
 console.log(address.substr(undefined, 11));
 console.log(address.substr(undefined, 18));
 console.log(address.substr(undefined));
+
